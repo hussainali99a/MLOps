@@ -1,0 +1,15 @@
+data:
+  path: data/iris.csv
+  target_column: target
+
+training:
+  test_size: 0.2
+  random_state: 42
+
+model:
+  n_estimators: 100
+  random_state: 42
+
+artifacts:
+  model_path: models/model.pkl
+  metrics_path: models/metrics.json
